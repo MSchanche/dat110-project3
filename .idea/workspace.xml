@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ny" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2euNjFuCAofNul4O8FLFMUAAL1j" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.MainWindow.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestCheckInterval.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestHashFunction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestKeys.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRemote.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ChordDHT-Project3-Startcode [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ChordDHT-Project3-Startcode [test...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ChordDHT-Project3-Startcode [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn test" />
+      <command value="package no.hvl.dat110.middleware;  import java.math.BigInteger; import java.rmi.RemoteException; import java.rmi.server.UnicastRemoteObject; import java.util.ArrayList; import java.util.HashMap; import java.util.HashSet; import java.util.List; import java.util.Map; import java.util.Set;  import no.hvl.dat110.chordoperations.ChordLookup; import no.hvl.dat110.rpc.interfaces.NodeInterface; import no.hvl.dat110.util.Hash;  /**  * @author tdoy  * dat110: Project3 - Cooperative mirroring using DHT  */  public class Node extends UnicastRemoteObject implements NodeInterface { &#9; &#9;private BigInteger nodeID;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// BigInteger value of hash of IP address/name of the Node &#9;protected String nodename;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// IP address/name of the node  &#9;private int port;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// port on which the registry for this node is running &#9;private NodeInterface successor; &#9;private NodeInterface predecessor; &#9;private Set&lt;BigInteger&gt; keys; &#9; &#9;private List&lt;NodeInterface&gt; fingerTable; &#9;private Map&lt;BigInteger, Message&gt; filesMetadata;&#9;&#9;// &#9; &#9;protected Set&lt;Message&gt; activenodesforfile;&#9;&#9;&#9;// this list stores all active peers holding copies of a file  &#9; &#9;private UpdateOperations updater;&#9;&#9;&#9;&#9;&#9;// this class contains methods for handling file updates &#9;private ChordLookup lookup;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// this class contains methods for looking up keys in a chord ring &#9;&#9; &#9;private Message message; &#9; &#9;/** Mutual Exclusion variable */ &#9;private MutualExclusion mutex; &#9; &#9;private static final long serialVersionUID = 1L; &#9; &#9;public Node(String nodename, int port) throws RemoteException { &#9;&#9;super(); &#9;&#9;this.port = port; &#9;&#9;this.nodename = nodename;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// use a different name as &quot;IP&quot; for single machine simulation &#9;&#9;nodeID = Hash.hashOf(nodename);&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// use the MD5  from Hash class &#9;&#9; &#9;&#9;keys = new HashSet&lt;BigInteger&gt;(); &#9;&#9;fingerTable = new ArrayList&lt;&gt;(); &#9;&#9;filesMetadata = new HashMap&lt;BigInteger, Message&gt;(); &#9;&#9;updater = new UpdateOperations(this, filesMetadata); &#9;&#9;lookup = new ChordLookup(this);  &#9;&#9;message = new Message(nodeID, nodename, port);&#9;&#9;&#9;&#9;// default message &#9;&#9;mutex = new MutualExclusion(this); &#9;} &#9; &#9;@Override &#9;public BigInteger getNodeID() throws RemoteException { &#9;&#9; &#9;&#9;return nodeID; &#9;}  &#9;//@Override &#9;public String getNodeName() { &#9;&#9; &#9;&#9;return nodename; &#9;} &#9; &#9;@Override &#9;public int getPort() throws RemoteException { &#9;&#9; &#9;&#9;return port; &#9;}  &#9;@Override &#9;public void setSuccessor(NodeInterface succ) throws RemoteException { &#9;&#9; &#9;&#9;successor = succ; &#9;}  &#9;//@Override &#9;public void setPredecessor(NodeInterface pred) { &#9;&#9; &#9;&#9;predecessor = pred; &#9;}  &#9;@Override &#9;public NodeInterface getPredecessor() throws RemoteException { &#9;&#9; &#9;&#9;return predecessor; &#9;}  &#9;@Override &#9;public NodeInterface getSuccessor() throws RemoteException { &#9;&#9; &#9;&#9;return successor; &#9;}  &#9;@Override &#9;public Set&lt;BigInteger&gt; getNodeKeys() throws RemoteException { &#9;&#9; &#9;&#9;return keys; &#9;}  &#9;@Override &#9;public void addKey(BigInteger id) throws RemoteException { &#9;&#9; &#9;&#9;keys.add(id); &#9;} &#9; &#9;@Override &#9;public void removeKey(BigInteger id) throws RemoteException { &#9;&#9; &#9;&#9;keys.remove(id); &#9;} &#9; &#9;@Override &#9;public List&lt;NodeInterface&gt; getFingerTable() { &#9;&#9;return fingerTable; &#9;}  &#9;@Override &#9;public NodeInterface findSuccessor(BigInteger key) throws RemoteException { &#9;&#9;// ask this node to find the successor of key &#9;&#9;return lookup.findSuccessor(key); &#9;} &#9; &#9;//@Override &#9;public void copyKeysFromSuccessor(NodeInterface succ) { &#9;&#9; &#9;&#9;lookup.copyKeysFromSuccessor(succ); &#9;}  &#9;@Override &#9;public void notify(NodeInterface pred_new) throws RemoteException { &#9;&#9; &#9;&#9;lookup.notify(pred_new);&#9;&#9; &#9;}  &#9;@Override &#9;public Message getFilesMetadata(BigInteger fileID) throws RemoteException {  &#9;&#9;return filesMetadata.get(fileID); &#9;}  &#9;@Override &#9;public Map&lt;BigInteger, Message&gt; getFilesMetadata() throws RemoteException { &#9;&#9; &#9;&#9;return filesMetadata; &#9;}  &#9;@Override &#9;public void updateFileContent(List&lt;Message&gt; updates) throws RemoteException { &#9;&#9;updater.updateFileContent(updates); &#9;&#9; &#9;}  &#9;@Override &#9;public synchronized void broadcastUpdatetoPeers(byte[] bytesOfFile) throws RemoteException { &#9;&#9;updater.broadcastUpdatetoPeers(activenodesforfile, bytesOfFile); &#9;&#9; &#9;}  &#9;@Override &#9;public void saveFileContent(String filename, BigInteger fileID, byte[] bytesOfFile, boolean primary) throws RemoteException { &#9;&#9;updater.saveFileContent(filename, fileID, bytesOfFile, primary); &#9;&#9; &#9;} &#9; &#9;/** Remote-write */ &#9;@Override &#9;public void requestRemoteWriteOperation(byte[] updates, Set&lt;Message&gt; activenodes) throws RemoteException { &#9;&#9;this.activenodesforfile = activenodes; &#9;&#9;broadcastUpdatetoPeers(updates);&#9;&#9; &#9;} &#9; &#9; &#9;/** Mutex Section */  &#9;@Override &#9;public boolean requestMutexWriteOperation(Message message, byte[] updates, Set&lt;Message&gt; activepeers) &#9;&#9;&#9;throws RemoteException {  &#9;&#9;this.message = message; &#9;&#9;this.activenodesforfile = activepeers; &#9;&#9;return mutex.doMutexRequest(this.message, updates);  &#9;} &#9; &#9;@Override &#9;public void acquireLock() throws RemoteException { &#9;&#9; &#9;&#9;mutex.acquireLock(); &#9;}  &#9;@Override &#9;public void releaseLocks() throws RemoteException { &#9;&#9; &#9;&#9;mutex.releaseLocks(); &#9;}  &#9;@Override &#9;public void onMutexAcknowledgementReceived(Message message) throws RemoteException { &#9;&#9; &#9;&#9;mutex.onMutexAcknowledgementReceived(message); &#9;}  &#9;@Override &#9;public void onMutexRequestReceived(Message message) throws RemoteException { &#9;&#9; &#9;&#9;mutex.onMutexRequestReceived(message);&#9; &#9;} &#9; &#9;@Override &#9;public void multicastReleaseLocks(Set&lt;Message&gt; activenodes) throws RemoteException { &#9;&#9; &#9;&#9;mutex.multicastReleaseLocks(activenodes); &#9;&#9; &#9;} &#9; &#9;/** End Mutex Section */ &#9; &#9; &#9;/** &#9; * @return the message &#9; */ &#9;public Message getMessage() { &#9;&#9;return message; &#9;}  } " />
+      <command value="mvn test -Dtest=TestHashFunction" />
+      <command value="mvn test -Dtest=TestFileReplicas" />
+      <command value="mvn test -Dtest=TestCheckInterval" />
+      <command value="mvn test -Dtest=TestFindSuccessor,TestFingerTable" />
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="" />
+      <created>1712750636451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712750636451</updated>
+      <workItem from="1712750639155" duration="4311000" />
+      <workItem from="1713101332522" duration="2520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
