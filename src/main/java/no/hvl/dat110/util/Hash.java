@@ -29,21 +29,40 @@ public class Hash {
 		// convert the hex into BigInteger
 		
 		// return the BigInteger
+		try {
+
+			MessageDigest md = MessageDigest.getInstance("MD5");
+
+			byte[] digest = md.digest(entity.getBytes("UTF-8"));
+
+			String hex = toHex(digest);
+
+			hashint = new BigInteger(hex, 16);
+		} catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
 		
 		return hashint;
 	}
 	
 	public static BigInteger addressSize() {
-		
+
 		// Task: compute the address size of MD5
-		
+
 		// compute the number of bits = bitSize()
-		
+
 		// compute the address size = 2 ^ number of bits
-		
+
 		// return the address size
-		
-		return null;
+
+		// Task: compute the address size of MD5
+
+
+		int numberOfBits = bitSize();
+
+		BigInteger addressSize = BigInteger.valueOf(2).pow(numberOfBits);
+
+		return addressSize;
 	}
 	
 	public static int bitSize() {
@@ -51,8 +70,15 @@ public class Hash {
 		int digestlen = 0;
 		
 		// find the digest length
-		
-		return digestlen*8;
+
+		try {
+			MessageDigest md = MessageDigest.getInstance("MD5");
+			digestlen = md.getDigestLength();
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+		}
+
+		return digestlen * 8;
 	}
 	
 	public static String toHex(byte[] digest) {
