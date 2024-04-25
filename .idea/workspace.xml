@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFileReplicas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFileReplicas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestHashFunction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestHashFunction.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFileReplicas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFileReplicas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestHashFunction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestHashFunction.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +17,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MSchanche"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e71dd204-0ea4-4728-b1f1-0becbbdc669c" />
+        <option name="url" value="https://github.com/MSchanche/dat110-project3.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,6 +81,21 @@
       <command value="mvn test -Dtest=TestFindSuccessor,TestFingerTable" />
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dat110-project3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dat110-project3" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,7 +114,16 @@
       <workItem from="1712750639155" duration="4311000" />
       <workItem from="1713101332522" duration="2520000" />
       <workItem from="1713277303123" duration="33000" />
+      <workItem from="1714062045338" duration="295000" />
     </task>
+    <task id="LOCAL−00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1714062089051</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1714062089051</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
