@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="" />
+    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFileReplicas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFileReplicas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestHashFunction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestHashFunction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFileReplicas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFileReplicas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestHashFunction.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestHashFunction.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,21 +74,6 @@
       <command value="mvn test -Dtest=TestFindSuccessor,TestFingerTable" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ChordDHT-Project3-Startcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ChordDHT-Project3-Startcode" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -99,6 +91,7 @@
       <updated>1712750636451</updated>
       <workItem from="1712750639155" duration="4311000" />
       <workItem from="1713101332522" duration="2520000" />
+      <workItem from="1713277303123" duration="33000" />
     </task>
     <servers />
   </component>
