@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/chordoperations/ChordLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/chordoperations/ChordLookup.java" afterDir="false" />
+    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/FileManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.MainWindow.executor": "Run",
     "JUnit.TestCheckInterval.executor": "Run",
+    "JUnit.TestFilePeers.executor": "Run",
     "JUnit.TestFileReplicas.executor": "Run",
     "JUnit.TestFindSuccessor.executor": "Run",
     "JUnit.TestFingerTable.executor": "Run",
@@ -121,7 +124,7 @@
       <workItem from="1713277303123" duration="33000" />
       <workItem from="1714062045338" duration="295000" />
       <workItem from="1714062375467" duration="227000" />
-      <workItem from="1714062881300" duration="7598000" />
+      <workItem from="1714062881300" duration="10731000" />
     </task>
     <task id="LOCAL−00001" summary=".">
       <option name="closed" value="true" />
@@ -137,7 +140,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1714130883453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <option name="closed" value="true" />
+      <created>1714131326406</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1714131326406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="implemented findHighestPredecessor and fixFingerTable methods, tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented findHighestPredecessor and fixFingerTable methods, tests passed" />
   </component>
 </project>
