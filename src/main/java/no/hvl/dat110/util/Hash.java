@@ -33,12 +33,10 @@ public class Hash {
 
 			MessageDigest md = MessageDigest.getInstance("MD5");
 
-			byte[] digest = md.digest(entity.getBytes("UTF-8"));
+			byte[] digest = md.digest(entity.getBytes());
 
-			String hex = toHex(digest);
-
-			hashint = new BigInteger(hex, 16);
-		} catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
+			hashint = new BigInteger(1, digest);
+		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
 		}
 		

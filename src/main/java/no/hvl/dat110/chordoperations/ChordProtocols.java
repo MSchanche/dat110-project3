@@ -157,34 +157,32 @@ public class ChordProtocols {
 		try {
 			logger.info("Fixing the FingerTable for the Node: " + chordnode.getNodeName());
 
-
 			List<NodeInterface> fingerTable = chordnode.getFingerTable();
-
 
 			fingerTable.clear();
 
-
 			BigInteger addressSize = Hash.addressSize();
-
-
 			int numBits = Hash.bitSize();
 
 
+			BigInteger moduloValue = BigInteger.valueOf(2).pow(numBits);
+
 			for (int i = 0; i < numBits; i++) {
 
-				BigInteger k = chordnode.getNodeID().add(BigInteger.valueOf(2).pow(i)).mod(BigInteger.valueOf(2).pow(numBits));
+				BigInteger fingerId = chordnode.getNodeID().add(BigInteger.valueOf(2).pow(i)).mod(moduloValue);
 
 
-				NodeInterface succnode = chordnode.findSuccessor(k);
-
+				NodeInterface succnode = chordnode.findSuccessor(fingerId);
 
 				if (succnode != null) {
-
 					fingerTable.add(succnode);
+				} else {
+
+					logger.warn("No successor node found for finger ID: " + fingerId);
 				}
 			}
 		} catch (RemoteException e) {
-
+			logger.error("RemoteException while fixing finger table: " + e.getMessage(), e);
 		}
 	}
 

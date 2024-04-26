@@ -1,3 +1,0 @@
-process2 = 15618062003214643351512781541041391612
-successor(process2) = process1
-predecessor(process2) = process4

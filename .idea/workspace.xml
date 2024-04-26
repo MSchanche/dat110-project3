@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="." />
+    <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/chordoperations/ChordLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/chordoperations/ChordLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/chordoperations/ChordProtocols.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/chordoperations/ChordProtocols.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/chordoperations/ChordLookup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/chordoperations/ChordLookup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/chordoperations/ChordProtocols.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/chordoperations/ChordProtocols.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/Hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/Hash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/files/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/files/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/files/file3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/files/file4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/files/file5.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +39,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MSchanche"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MSchanche&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -46,30 +67,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.MainWindow.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestCheckInterval.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestHashFunction.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestKeys.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRemote.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ChordDHT-Project3-Startcode [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ChordDHT-Project3-Startcode [test...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ChordDHT-Project3-Startcode [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.MainWindow.executor": "Run",
+    "JUnit.TestCheckInterval.executor": "Run",
+    "JUnit.TestFileReplicas.executor": "Run",
+    "JUnit.TestFindSuccessor.executor": "Run",
+    "JUnit.TestFingerTable.executor": "Run",
+    "JUnit.TestHashFunction.executor": "Run",
+    "JUnit.TestKeys.executor": "Run",
+    "JUnit.TestRemote.executor": "Run",
+    "Maven.ChordDHT-Project3-Startcode [compile].executor": "Run",
+    "Maven.ChordDHT-Project3-Startcode [test...].executor": "Run",
+    "Maven.ChordDHT-Project3-Startcode [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn compile" />
@@ -115,6 +139,8 @@
       <workItem from="1713101332522" duration="2520000" />
       <workItem from="1713277303123" duration="33000" />
       <workItem from="1714062045338" duration="295000" />
+      <workItem from="1714062375467" duration="227000" />
+      <workItem from="1714062881300" duration="6558000" />
     </task>
     <task id="LOCAL−00001" summary=".">
       <option name="closed" value="true" />
