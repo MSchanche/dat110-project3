@@ -112,7 +112,7 @@ public class ChordLookup {
 				}
 			}
 		}
-		return (highestNode != null) ? highestNode : node;
+		return node;
 	}
 
 	

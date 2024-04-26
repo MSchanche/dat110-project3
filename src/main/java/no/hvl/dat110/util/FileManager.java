@@ -96,22 +96,22 @@ public class FileManager {
 
 		int counter = 0;
 
-		for (int i = 0; i < numReplicas; i++) {
-			BigInteger replica = replicafiles[i];
-
-
-			NodeInterface successor = chordnode.findSuccessor(replica);
-
-
-			successor.addKey(replica);
-
-			boolean isPrimary = (i == index);
-
-
-			successor.saveFileContent(filename,replica, bytesOfFile, isPrimary);
-
-			counter++;
-		}
+//		for (int i = 0; i < numReplicas; i++) {
+//			BigInteger replica = replicafiles[i];
+//
+//
+//			NodeInterface successor = chordnode.findSuccessor(replica);
+//
+//
+//			successor.addKey(replica);
+//
+//			boolean isPrimary = (i == index);
+//
+//
+//			successor.saveFileContent(filename,replica, bytesOfFile, isPrimary);
+//
+//			counter++;
+//		}
 
 		return counter;
     }
