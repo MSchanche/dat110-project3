@@ -146,12 +146,6 @@ public class FileManager {
 
 		createReplicaFiles();
 
-		// Task: Given a filename, find all the peers that hold a copy of this file
-		// generate the N replicas from the filename by calling createReplicaFiles()
-		// iterate over the replicas of the file
-		// for each replica, do findSuccessor(replica) that returns successor s.
-		// get the metadata (Message) of the replica from the successor (i.e., active peer) of the file
-		// save the metadata in the set activeNodesforFile.
 
 
 		for (BigInteger replicaHash : replicafiles) {
@@ -172,14 +166,28 @@ public class FileManager {
 	 * Find the primary server - Remote-Write Protocol
 	 * @return 
 	 */
-	public NodeInterface findPrimaryOfItem() {
+	public NodeInterface findPrimaryOfItem() throws RemoteException {
+
+		Set<Message> activeNodesforFile = requestActiveNodesForFile(filename);
+
+		System.out.println("activeNodesforFile is :" + activeNodesforFile);
+
+
 		for (Message metadata : activeNodesforFile) {
+			System.out.println("Node: " + metadata.getNodeName() + " Primary: " + metadata.isPrimaryServer());
 			if (metadata.isPrimaryServer()) {
-				return Util.getProcessStub(String.valueOf(metadata.getNodeID()), metadata.getPort());
-			}
+				System.err.println(metadata.getNodeID().toString());
+				NodeInterface stub = Util.getProcessStub(metadata.getNodeName(), metadata.getPort());
+				if (stub != null) {
+                    return stub;
+                } else {
+                    System.err.println("Stub retrieval returned null for primary server: " + metadata.getNodeName());
+                }
+            }
 		}
+
 		return null;
-	}
+		}
 	
     /**
      * Read the content of a file and return the bytes

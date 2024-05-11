@@ -86,17 +86,25 @@ public class Util {
 	public static NodeInterface getProcessStub(String name, int port) {
 		
 		NodeInterface nodestub = null;
-		Registry registry = null;
 		try {
-			// Get the registry for this worker node
-			registry = LocateRegistry.getRegistry(port);		
-			
-			nodestub = (NodeInterface) registry.lookup(name);	// remote stub
-			
-		} catch (NotBoundException | RemoteException e) {
-			return null;			// if this call fails, then treat the node to have left the ring...or unavailable
+			Registry registry = LocateRegistry.getRegistry(port);
+			nodestub = (NodeInterface) registry.lookup(name); // Remote stub
+			System.err.println("Stub retrieved successfully for node: " + name + " on port: " + port);
+		} catch (NotBoundException e) {
+			System.err.println("No bound registry for node: " + name + " on port: " + port);
+			e.printStackTrace(); // Print the stack trace to stderr
+		} catch (RemoteException e) {
+			System.err.println("RemoteException while trying to get stub for node: " + name + " on port: " + port);
+			e.printStackTrace(); // Print the stack trace to stderr
+		} catch (Exception e) {
+			System.err.println("Unhandled exception while trying to get stub for node: " + name + " on port: " + port);
+			e.printStackTrace(); // Print the stack trace to stderr
 		}
-		
+
+		if (nodestub == null) {
+			System.err.println("Stub is null for node: " + name + " on port: " + port);
+		}
+
 		return nodestub;
 	}
 	

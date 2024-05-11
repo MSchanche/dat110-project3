@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import java.math.BigInteger;
 import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.util.Set;
 
 import org.junit.jupiter.api.BeforeAll;
@@ -26,10 +28,29 @@ class TestRemote {
 			Thread.sleep(12000); 			// let the ring stabilize before distributing files
 			// distribute the files to the ring
 			setup.doDistribute();
-			Thread.sleep(5000); 			// let the ring stabilize before starting the test
+			Thread.sleep(5000);// let the ring stabilize before starting the test
+
+			checkRegistry(9091);
+			checkRegistry(9092);
+			checkRegistry(9093);
+			checkRegistry(9094);
+			checkRegistry(9095);
 		}
 	}
 
+	private static void checkRegistry(int port) {
+		try {
+			Registry registry = LocateRegistry.getRegistry(port);
+			String[] boundNames = registry.list();
+			System.out.println("Registry contents at port " + port + ":");
+			for (String name : boundNames) {
+				System.out.println(name);
+			}
+		} catch (RemoteException e) {
+			System.err.println("Failed to access RMI registry at port " + port);
+			e.printStackTrace();
+		}
+	}
 	@Test
 	void test() throws InterruptedException, RemoteException {
 		
