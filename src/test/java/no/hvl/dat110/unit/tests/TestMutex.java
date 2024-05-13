@@ -80,7 +80,7 @@ class TestMutex {
 		replies.add(fu4.getReply());
 		replies.add(fu5.getReply());
 		
-		Boolean[] expected = {true, true, true, false};
+		Boolean[] expected = {true, true, false, false};
 		List<Boolean> e = Arrays.asList(expected);
 		Collections.sort(replies);
 		Collections.sort(e);

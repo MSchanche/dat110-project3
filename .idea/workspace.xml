@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/middleware/MutualExclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/middleware/MutualExclusion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/hvl/dat110/unit/tests/TestMutex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/hvl/dat110/unit/tests/TestMutex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/middleware/MutualExclusion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/middleware/MutualExclusion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestCheckInterval.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestCheckInterval.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFilePeers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFilePeers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFileReplicas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFileReplicas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFindSuccessor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFindSuccessor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFingerTable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFingerTable.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestHashFunction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestHashFunction.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestKeys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestKeys.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestMutex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestMutex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestRemote.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestRemote.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestRing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestRing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestCheckInterval.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestCheckInterval.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFilePeers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFilePeers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFileReplicas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFileReplicas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFindSuccessor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFindSuccessor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFingerTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFingerTable.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestMutex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestMutex.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestRemote.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestRemote.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/no/hvl/dat110/unit/tests/TestMutex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/no/hvl/dat110/unit/tests/TestMutex.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +132,7 @@
       <workItem from="1714062045338" duration="295000" />
       <workItem from="1714062375467" duration="227000" />
       <workItem from="1714062881300" duration="10731000" />
-      <workItem from="1714417201119" duration="30775000" />
+      <workItem from="1714417201119" duration="31430000" />
     </task>
     <task id="LOCAL−00001" summary=".">
       <option name="closed" value="true" />
@@ -217,7 +197,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1715440841971</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <option name="closed" value="true" />
+      <created>1715593562541</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1715593562541</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
