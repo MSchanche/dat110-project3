@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NO"/>
     <property name="sun.boot.library.path" value="C:\Users\jacob\.jdks\openjdk-21.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046\surefirebooter-20240511171906645_3.jar C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046 2024-05-11T17-19-06_132-jvmRun1 surefire-20240511171906645_1tmp surefire_0-20240511171906645_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124\surefirebooter-20240513102246594_3.jar C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124 2024-05-13T10-22-46_351-jvmRun1 surefire-20240513102246594_1tmp surefire_0-20240513102246594_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\jacob\Documents\GitHub\dat110-project3\target\test-classes;C:\Users\jacob\Documents\GitHub\dat110-project3\target\classes;C:\Users\jacob\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\jacob\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\jacob\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\jacob\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jacob\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\jacob\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046\surefirebooter-20240511171906645_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124\surefirebooter-20240513102246594_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-29"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="test" classname="no.hvl.dat110.unit.tests.TestKeys" time="0.005">
+  <testcase name="test" classname="no.hvl.dat110.unit.tests.TestKeys" time="0.004">
     <system-err><![CDATA[Stub retrieved successfully for node: process1 on port: 9091
 Stub retrieved successfully for node: process2 on port: 9092
 Stub retrieved successfully for node: process3 on port: 9093

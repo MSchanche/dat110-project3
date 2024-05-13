@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="no.hvl.dat110.unit.tests.TestMutex" time="0.027" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="no.hvl.dat110.unit.tests.TestMutex" time="0.029" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NO"/>
     <property name="sun.boot.library.path" value="C:\Users\jacob\.jdks\openjdk-21.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046\surefirebooter-20240511171906645_3.jar C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046 2024-05-11T17-19-06_132-jvmRun1 surefire-20240511171906645_1tmp surefire_0-20240511171906645_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124\surefirebooter-20240513102246594_3.jar C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124 2024-05-13T10-22-46_351-jvmRun1 surefire-20240513102246594_1tmp surefire_0-20240513102246594_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\jacob\Documents\GitHub\dat110-project3\target\test-classes;C:\Users\jacob\Documents\GitHub\dat110-project3\target\classes;C:\Users\jacob\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\jacob\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\jacob\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\jacob\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jacob\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\jacob\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046\surefirebooter-20240511171906645_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124\surefirebooter-20240513102246594_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-29"/>
@@ -59,8 +59,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="test" classname="no.hvl.dat110.unit.tests.TestMutex" time="0.023">
-    <failure message="array contents differ at index [1], expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [1], expected: <false> but was: <true>
+  <testcase name="test" classname="no.hvl.dat110.unit.tests.TestMutex" time="0.026">
+    <failure message="array contents differ at index [1], expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [1], expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
@@ -140,104 +140,88 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-out><![CDATA[2024-05-11 17:19:33 INFO  MutualExclusion:228 - Releasing locks from = 4
-2024-05-11 17:19:33 INFO  MutualExclusion:56 - process1 wants to access CS
-2024-05-11 17:19:33 INFO  MutualExclusion:56 - process2 wants to access CS
-2024-05-11 17:19:33 INFO  MutualExclusion:56 - process5 wants to access CS
-2024-05-11 17:19:33 INFO  MutualExclusion:56 - process4 wants to access CS
-2024-05-11 17:19:33 INFO  MutualExclusion:99 - Number of peers to vote = 4
-2024-05-11 17:19:33 INFO  MutualExclusion:99 - Number of peers to vote = 4
-2024-05-11 17:19:33 INFO  MutualExclusion:99 - Number of peers to vote = 4
-2024-05-11 17:19:33 INFO  MutualExclusion:99 - Number of peers to vote = 4
-2024-05-11 17:19:33 INFO  MutualExclusion:246 - process2: size of queueack = 4
-2024-05-11 17:19:33 INFO  MutualExclusion:246 - process1: size of queueack = 4
-2024-05-11 17:19:33 INFO  MutualExclusion:246 - process4: size of queueack = 4
-2024-05-11 17:19:33 INFO  MutualExclusion:246 - process5: size of queueack = 3
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 210821560651360572675896360671414673172
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 210821560651360572675896360671414673172
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 210821560651360572675896360671414673172
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process4 | 140065589670395970233963560630295105848
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 210821560651360572675896360671414673172
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process4 | 140065589670395970233963560630295105848
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 15618062003214643351512781541041391612
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process4 | 140065589670395970233963560630295105848
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 210821560651360572675896360671414673172
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 15618062003214643351512781541041391612
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 210821560651360572675896360671414673172
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 15618062003214643351512781541041391612
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process2 | 13988058880685873568223126745537177142
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 15618062003214643351512781541041391612
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 53937554629190552131995290006614509577
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process2 | 13988058880685873568223126745537177142
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 15618062003214643351512781541041391612
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 53937554629190552131995290006614509577
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process2 | 13988058880685873568223126745537177142
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 15618062003214643351512781541041391612
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process1 | 22851974182570490653634187770374799407
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 53937554629190552131995290006614509577
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 53937554629190552131995290006614509577
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process1 | 22851974182570490653634187770374799407
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process1 | 22851974182570490653634187770374799407
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 121411138451101288395601026024677976156
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 53937554629190552131995290006614509577
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 53937554629190552131995290006614509577
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 121411138451101288395601026024677976156
-2024-05-11 17:19:33 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 121411138451101288395601026024677976156
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process5 | 73806995735690189889297542544385123161
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process5 | 73806995735690189889297542544385123161
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 121411138451101288395601026024677976156
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 121411138451101288395601026024677976156
-2024-05-11 17:19:33 INFO  UpdateOperations:69 - Update file is being performed by this peer: process5 | 73806995735690189889297542544385123161
-2024-05-11 17:19:33 INFO  UpdateOperations:102 - Finished updating file for peer: 121411138451101288395601026024677976156
+    <system-out><![CDATA[2024-05-13 10:23:13 INFO  MutualExclusion:228 - Releasing locks from = 4
+2024-05-13 10:23:13 INFO  MutualExclusion:56 - process1 wants to access CS
+2024-05-13 10:23:13 INFO  MutualExclusion:56 - process2 wants to access CS
+2024-05-13 10:23:13 INFO  MutualExclusion:56 - process4 wants to access CS
+2024-05-13 10:23:13 INFO  MutualExclusion:99 - Number of peers to vote = 4
+2024-05-13 10:23:13 INFO  MutualExclusion:99 - Number of peers to vote = 4
+2024-05-13 10:23:13 INFO  MutualExclusion:56 - process5 wants to access CS
+2024-05-13 10:23:13 INFO  MutualExclusion:99 - Number of peers to vote = 4
+2024-05-13 10:23:13 INFO  MutualExclusion:99 - Number of peers to vote = 4
+2024-05-13 10:23:13 INFO  MutualExclusion:246 - process2: size of queueack = 4
+2024-05-13 10:23:13 INFO  MutualExclusion:246 - process1: size of queueack = 4
+2024-05-13 10:23:13 INFO  MutualExclusion:246 - process5: size of queueack = 3
+2024-05-13 10:23:13 INFO  MutualExclusion:246 - process4: size of queueack = 3
+2024-05-13 10:23:13 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 210821560651360572675896360671414673172
+2024-05-13 10:23:13 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 210821560651360572675896360671414673172
+2024-05-13 10:23:13 INFO  UpdateOperations:69 - Update file is being performed by this peer: process4 | 140065589670395970233963560630295105848
+2024-05-13 10:23:13 INFO  UpdateOperations:69 - Update file is being performed by this peer: process4 | 140065589670395970233963560630295105848
+2024-05-13 10:23:13 INFO  UpdateOperations:102 - Finished updating file for peer: 210821560651360572675896360671414673172
+2024-05-13 10:23:13 INFO  UpdateOperations:102 - Finished updating file for peer: 210821560651360572675896360671414673172
+2024-05-13 10:23:13 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 15618062003214643351512781541041391612
+2024-05-13 10:23:13 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 15618062003214643351512781541041391612
+2024-05-13 10:23:13 INFO  UpdateOperations:69 - Update file is being performed by this peer: process2 | 13988058880685873568223126745537177142
+2024-05-13 10:23:13 INFO  UpdateOperations:102 - Finished updating file for peer: 15618062003214643351512781541041391612
+2024-05-13 10:23:13 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 53937554629190552131995290006614509577
+2024-05-13 10:23:13 INFO  UpdateOperations:69 - Update file is being performed by this peer: process2 | 13988058880685873568223126745537177142
+2024-05-13 10:23:13 INFO  UpdateOperations:102 - Finished updating file for peer: 15618062003214643351512781541041391612
+2024-05-13 10:23:13 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 53937554629190552131995290006614509577
+2024-05-13 10:23:13 INFO  UpdateOperations:69 - Update file is being performed by this peer: process1 | 22851974182570490653634187770374799407
+2024-05-13 10:23:13 INFO  UpdateOperations:69 - Update file is being performed by this peer: process1 | 22851974182570490653634187770374799407
+2024-05-13 10:23:13 INFO  UpdateOperations:102 - Finished updating file for peer: 53937554629190552131995290006614509577
+2024-05-13 10:23:13 INFO  UpdateOperations:102 - Finished updating file for peer: 53937554629190552131995290006614509577
+2024-05-13 10:23:13 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 121411138451101288395601026024677976156
+2024-05-13 10:23:13 INFO  UpdateOperations:90 - Trying to update file replicas for peer: 121411138451101288395601026024677976156
+2024-05-13 10:23:13 INFO  UpdateOperations:69 - Update file is being performed by this peer: process5 | 73806995735690189889297542544385123161
+2024-05-13 10:23:13 INFO  UpdateOperations:69 - Update file is being performed by this peer: process5 | 73806995735690189889297542544385123161
+2024-05-13 10:23:13 INFO  UpdateOperations:102 - Finished updating file for peer: 121411138451101288395601026024677976156
+2024-05-13 10:23:13 INFO  UpdateOperations:102 - Finished updating file for peer: 121411138451101288395601026024677976156
 fu1: true
 fu2: true
-fu4: true
+fu4: false
 fu5: false
-[false, true, true, true]|[false, false, false, true]
+[false, false, true, true]|[false, true, true, true]
 ]]></system-out>
     <system-err><![CDATA[Stub retrieved successfully for node: process1 on port: 9091
 Stub retrieved successfully for node: process2 on port: 9092
 Stub retrieved successfully for node: process3 on port: 9093
 Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process5 on port: 9095
-Stub retrieved successfully for node: process2 on port: 9092
 Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process1 on port: 9091
 Stub retrieved successfully for node: process5 on port: 9095
-Stub retrieved successfully for node: process1 on port: 9091
-Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process2 on port: 9092
-Stub retrieved successfully for node: process1 on port: 9091
 Stub retrieved successfully for node: process5 on port: 9095
-Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process2 on port: 9092
 Stub retrieved successfully for node: process1 on port: 9091
-Stub retrieved successfully for node: process4 on port: 9094
-Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process1 on port: 9091
+Stub retrieved successfully for node: process1 on port: 9091
+Stub retrieved successfully for node: process2 on port: 9092
+Stub retrieved successfully for node: process4 on port: 9094
+Stub retrieved successfully for node: process5 on port: 9095
 Stub retrieved successfully for node: process5 on port: 9095
 Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process1 on port: 9091
 Stub retrieved successfully for node: process2 on port: 9092
+Stub retrieved successfully for node: process4 on port: 9094
+Stub retrieved successfully for node: process5 on port: 9095
 Stub retrieved successfully for node: process5 on port: 9095
 Stub retrieved successfully for node: process1 on port: 9091
-Stub retrieved successfully for node: process5 on port: 9095
-Stub retrieved successfully for node: process5 on port: 9095
-Stub retrieved successfully for node: process2 on port: 9092
+Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process5 on port: 9095
 Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process2 on port: 9092
 Stub retrieved successfully for node: process1 on port: 9091
 Stub retrieved successfully for node: process2 on port: 9092
-Stub retrieved successfully for node: process4 on port: 9094
+Stub retrieved successfully for node: process1 on port: 9091
+Stub retrieved successfully for node: process2 on port: 9092
 Stub retrieved successfully for node: process2 on port: 9092
 Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process4 on port: 9094
-Stub retrieved successfully for node: process2 on port: 9092
+Stub retrieved successfully for node: process4 on port: 9094
 Stub retrieved successfully for node: process2 on port: 9092
 Stub retrieved successfully for node: process1 on port: 9091
-Stub retrieved successfully for node: process1 on port: 9091
-Stub retrieved successfully for node: process5 on port: 9095
 Stub retrieved successfully for node: process5 on port: 9095
 Stub retrieved successfully for node: process5 on port: 9095
 ]]></system-err>

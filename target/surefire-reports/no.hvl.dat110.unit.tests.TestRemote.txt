@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: no.hvl.dat110.unit.tests.TestRemote
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in no.hvl.dat110.unit.tests.TestRemote
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in no.hvl.dat110.unit.tests.TestRemote

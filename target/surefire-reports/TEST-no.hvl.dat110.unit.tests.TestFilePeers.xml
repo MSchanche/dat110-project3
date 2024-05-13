@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="no.hvl.dat110.unit.tests.TestFilePeers" time="26.497" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="no.hvl.dat110.unit.tests.TestFilePeers" time="26.53" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NO"/>
     <property name="sun.boot.library.path" value="C:\Users\jacob\.jdks\openjdk-21.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046\surefirebooter-20240511171906645_3.jar C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046 2024-05-11T17-19-06_132-jvmRun1 surefire-20240511171906645_1tmp surefire_0-20240511171906645_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124\surefirebooter-20240513102246594_3.jar C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124 2024-05-13T10-22-46_351-jvmRun1 surefire-20240513102246594_1tmp surefire_0-20240513102246594_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\jacob\Documents\GitHub\dat110-project3\target\test-classes;C:\Users\jacob\Documents\GitHub\dat110-project3\target\classes;C:\Users\jacob\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\jacob\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\jacob\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\jacob\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jacob\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\jacob\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\jacob\AppData\Local\Temp\surefire15931786558599936046\surefirebooter-20240511171906645_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jacob\AppData\Local\Temp\surefire1155999102709576124\surefirebooter-20240513102246594_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-29"/>
@@ -59,31 +59,31 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="test" classname="no.hvl.dat110.unit.tests.TestFilePeers" time="0.009">
-    <system-out><![CDATA[2024-05-11 17:19:08 INFO  NodeServer:50 - process1 server is running... 
+  <testcase name="test" classname="no.hvl.dat110.unit.tests.TestFilePeers" time="0.011">
+    <system-out><![CDATA[2024-05-13 10:22:48 INFO  NodeServer:50 - process1 server is running... 
 process1:9091
-2024-05-11 17:19:08 INFO  ChordProtocols:109 - New ring created. Node = process1 | Successor = process1 | Predecessor = null
-2024-05-11 17:19:10 INFO  NodeServer:50 - process2 server is running... 
+2024-05-13 10:22:48 INFO  ChordProtocols:109 - New ring created. Node = process1 | Successor = process1 | Predecessor = null
+2024-05-13 10:22:50 INFO  NodeServer:50 - process2 server is running... 
 process1:9091
-2024-05-11 17:19:10 INFO  ChordProtocols:69 - JoinRing-randomNode = process1
-2024-05-11 17:19:10 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:10 INFO  ChordLookup:127 - copy file keys that are <= process2 from successor process1 to process2
-2024-05-11 17:19:10 INFO  ChordLookup:144 - Finished copying file keys from successor process1 to process2
-2024-05-11 17:19:10 INFO  ChordProtocols:87 - process2 is between null | process1
-2024-05-11 17:19:12 INFO  NodeServer:50 - process3 server is running... 
+2024-05-13 10:22:50 INFO  ChordProtocols:69 - JoinRing-randomNode = process1
+2024-05-13 10:22:50 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:22:50 INFO  ChordLookup:127 - copy file keys that are <= process2 from successor process1 to process2
+2024-05-13 10:22:50 INFO  ChordLookup:144 - Finished copying file keys from successor process1 to process2
+2024-05-13 10:22:50 INFO  ChordProtocols:87 - process2 is between null | process1
+2024-05-13 10:22:52 INFO  NodeServer:50 - process3 server is running... 
 process1:9091
-2024-05-11 17:19:12 INFO  ChordProtocols:69 - JoinRing-randomNode = process1
-2024-05-11 17:19:12 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:12 INFO  ChordLookup:127 - copy file keys that are <= process3 from successor process1 to process3
-2024-05-11 17:19:12 INFO  ChordLookup:144 - Finished copying file keys from successor process1 to process3
-2024-05-11 17:19:12 INFO  ChordProtocols:87 - process3 is between null | process1
-2024-05-11 17:19:13 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:13 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
-2024-05-11 17:19:13 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:13 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:13 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:13 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:13 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:22:52 INFO  ChordProtocols:69 - JoinRing-randomNode = process1
+2024-05-13 10:22:52 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:22:52 INFO  ChordLookup:127 - copy file keys that are <= process3 from successor process1 to process3
+2024-05-13 10:22:52 INFO  ChordLookup:144 - Finished copying file keys from successor process1 to process3
+2024-05-13 10:22:52 INFO  ChordProtocols:87 - process3 is between null | process1
+2024-05-13 10:22:53 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:22:53 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
+2024-05-13 10:22:53 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:22:53 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:22:53 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:22:53 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:22:53 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -91,20 +91,20 @@ successor(process1) = process2
 predecessor(process1) = process2
 Current File keys for process1 => []
 ==================================
-2024-05-11 17:19:14 INFO  NodeServer:50 - process4 server is running... 
+2024-05-13 10:22:54 INFO  NodeServer:50 - process4 server is running... 
 process1:9091
-2024-05-11 17:19:14 INFO  ChordProtocols:69 - JoinRing-randomNode = process1
-2024-05-11 17:19:14 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:14 INFO  ChordLookup:127 - copy file keys that are <= process4 from successor process2 to process4
-2024-05-11 17:19:14 INFO  ChordLookup:144 - Finished copying file keys from successor process2 to process4
-2024-05-11 17:19:14 INFO  ChordProtocols:87 - process4 is between null | process2
-2024-05-11 17:19:15 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:15 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
-2024-05-11 17:19:15 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:15 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:15 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:15 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:15 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:22:54 INFO  ChordProtocols:69 - JoinRing-randomNode = process1
+2024-05-13 10:22:54 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:22:54 INFO  ChordLookup:127 - copy file keys that are <= process4 from successor process2 to process4
+2024-05-13 10:22:54 INFO  ChordLookup:144 - Finished copying file keys from successor process2 to process4
+2024-05-13 10:22:54 INFO  ChordProtocols:87 - process4 is between null | process2
+2024-05-13 10:22:55 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:22:55 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
+2024-05-13 10:22:55 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:22:55 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:22:55 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:22:55 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:22:55 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -112,12 +112,12 @@ successor(process1) = process4
 predecessor(process1) = process2
 Current File keys for process1 => []
 ==================================
-2024-05-11 17:19:15 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:15 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:15 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:15 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:15 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:15 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:22:55 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:22:55 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:22:55 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:22:55 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:22:55 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:22:55 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -125,20 +125,20 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => []
 ==================================
-2024-05-11 17:19:16 INFO  NodeServer:50 - process5 server is running... 
+2024-05-13 10:22:56 INFO  NodeServer:50 - process5 server is running... 
 process1:9091
-2024-05-11 17:19:16 INFO  ChordProtocols:69 - JoinRing-randomNode = process1
-2024-05-11 17:19:16 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
-2024-05-11 17:19:16 INFO  ChordLookup:127 - copy file keys that are <= process5 from successor process4 to process5
-2024-05-11 17:19:16 INFO  ChordLookup:144 - Finished copying file keys from successor process4 to process5
-2024-05-11 17:19:16 INFO  ChordProtocols:87 - process5 is between null | process4
-2024-05-11 17:19:17 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:17 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
-2024-05-11 17:19:17 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:17 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:17 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:17 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:17 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:22:56 INFO  ChordProtocols:69 - JoinRing-randomNode = process1
+2024-05-13 10:22:56 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
+2024-05-13 10:22:56 INFO  ChordLookup:127 - copy file keys that are <= process5 from successor process4 to process5
+2024-05-13 10:22:56 INFO  ChordLookup:144 - Finished copying file keys from successor process4 to process5
+2024-05-13 10:22:56 INFO  ChordProtocols:87 - process5 is between null | process4
+2024-05-13 10:22:57 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:22:57 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
+2024-05-13 10:22:57 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:22:57 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:22:57 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:22:57 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:22:57 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -146,12 +146,12 @@ successor(process1) = process5
 predecessor(process1) = process2
 Current File keys for process1 => []
 ==================================
-2024-05-11 17:19:17 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:17 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:17 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:17 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:17 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:17 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:22:57 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:22:57 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:22:57 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:22:57 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:22:57 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:22:57 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -159,15 +159,15 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => []
 ==================================
-2024-05-11 17:19:17 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:17 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process3
-2024-05-11 17:19:17 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:17 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:17 INFO  ChordLookup:127 - copy file keys that are <= process3 from successor process2 to process3
-2024-05-11 17:19:17 INFO  ChordLookup:144 - Finished copying file keys from successor process2 to process3
-2024-05-11 17:19:17 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:17 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:17 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:22:57 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:22:57 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process3
+2024-05-13 10:22:57 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:22:57 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:22:57 INFO  ChordLookup:127 - copy file keys that are <= process3 from successor process2 to process3
+2024-05-13 10:22:57 INFO  ChordLookup:144 - Finished copying file keys from successor process2 to process3
+2024-05-13 10:22:57 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:22:57 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:22:57 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -175,13 +175,13 @@ successor(process3) = process4
 predecessor(process3) = process3
 Current File keys for process3 => []
 ==================================
-2024-05-11 17:19:19 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:19 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
-2024-05-11 17:19:19 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:19 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:19 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:19 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:19 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:22:59 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:22:59 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
+2024-05-13 10:22:59 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:22:59 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:22:59 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:22:59 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:22:59 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -189,12 +189,12 @@ successor(process1) = process5
 predecessor(process1) = process2
 Current File keys for process1 => []
 ==================================
-2024-05-11 17:19:19 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:19 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:19 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:19 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:19 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:19 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:22:59 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:22:59 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:22:59 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:22:59 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:22:59 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:22:59 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -202,13 +202,13 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => []
 ==================================
-2024-05-11 17:19:19 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:19 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process3
-2024-05-11 17:19:19 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:19 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:19 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:19 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:19 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:22:59 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:22:59 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process3
+2024-05-13 10:22:59 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:22:59 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:22:59 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:22:59 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:22:59 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -216,12 +216,12 @@ successor(process3) = process5
 predecessor(process3) = process3
 Current File keys for process3 => []
 ==================================
-2024-05-11 17:19:19 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
-2024-05-11 17:19:19 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
-2024-05-11 17:19:19 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:19 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
-2024-05-11 17:19:19 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:19 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
+2024-05-13 10:22:59 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
+2024-05-13 10:22:59 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
+2024-05-13 10:22:59 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:22:59 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
+2024-05-13 10:22:59 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:22:59 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
 ==================================
 Node Identifier = 210821560651360572675896360671414673172
 Node IP address = process4
@@ -229,12 +229,12 @@ successor(process4) = process2
 predecessor(process4) = process5
 Current File keys for process4 => []
 ==================================
-2024-05-11 17:19:21 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:21 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:21 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:21 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:21 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:21 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:23:01 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:23:01 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:23:01 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:23:01 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:23:01 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:23:01 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -242,12 +242,12 @@ successor(process1) = process5
 predecessor(process1) = process2
 Current File keys for process1 => []
 ==================================
-2024-05-11 17:19:21 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:21 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:21 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:21 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:21 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:21 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:23:01 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:23:01 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:23:01 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:23:01 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:23:01 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:23:01 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -255,15 +255,15 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => []
 ==================================
-2024-05-11 17:19:21 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:21 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process3
-2024-05-11 17:19:21 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:21 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:21 INFO  ChordLookup:127 - copy file keys that are <= process3 from successor process1 to process3
-2024-05-11 17:19:21 INFO  ChordLookup:144 - Finished copying file keys from successor process1 to process3
-2024-05-11 17:19:21 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:21 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:21 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:23:01 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:23:01 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process3
+2024-05-13 10:23:01 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:23:01 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:23:01 INFO  ChordLookup:127 - copy file keys that are <= process3 from successor process1 to process3
+2024-05-13 10:23:01 INFO  ChordLookup:144 - Finished copying file keys from successor process1 to process3
+2024-05-13 10:23:01 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:23:01 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:23:01 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -271,12 +271,12 @@ successor(process3) = process2
 predecessor(process3) = process3
 Current File keys for process3 => []
 ==================================
-2024-05-11 17:19:21 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
-2024-05-11 17:19:21 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
-2024-05-11 17:19:21 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:21 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
-2024-05-11 17:19:21 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:21 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
+2024-05-13 10:23:01 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
+2024-05-13 10:23:01 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
+2024-05-13 10:23:01 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:23:01 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
+2024-05-13 10:23:01 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:23:01 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
 ==================================
 Node Identifier = 210821560651360572675896360671414673172
 Node IP address = process4
@@ -284,12 +284,12 @@ successor(process4) = process2
 predecessor(process4) = process5
 Current File keys for process4 => []
 ==================================
-2024-05-11 17:19:21 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
-2024-05-11 17:19:21 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
-2024-05-11 17:19:21 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:21 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
-2024-05-11 17:19:21 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
-2024-05-11 17:19:21 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
+2024-05-13 10:23:01 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
+2024-05-13 10:23:01 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
+2024-05-13 10:23:01 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:23:01 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
+2024-05-13 10:23:01 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
+2024-05-13 10:23:01 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
 ==================================
 Node Identifier = 121411138451101288395601026024677976156
 Node IP address = process5
@@ -297,12 +297,12 @@ successor(process5) = process4
 predecessor(process5) = process1
 Current File keys for process5 => []
 ==================================
-2024-05-11 17:19:23 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:23 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:23 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:23 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:23 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:23 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:23:03 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:23:03 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:23:03 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:23:03 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:23:03 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:23:03 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -310,12 +310,12 @@ successor(process1) = process5
 predecessor(process1) = process2
 Current File keys for process1 => []
 ==================================
-2024-05-11 17:19:23 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:23 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:23 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:23 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:23 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:23 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:23:03 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:23:03 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:23:03 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:23:03 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:23:03 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:23:03 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -323,15 +323,15 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => []
 ==================================
-2024-05-11 17:19:23 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:23 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process3
-2024-05-11 17:19:23 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:23 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:23 INFO  ChordLookup:127 - copy file keys that are <= process3 from successor process4 to process3
-2024-05-11 17:19:23 INFO  ChordLookup:144 - Finished copying file keys from successor process4 to process3
-2024-05-11 17:19:23 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:23 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:23 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:23:03 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:23:03 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process3
+2024-05-13 10:23:03 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:23:03 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:23:03 INFO  ChordLookup:127 - copy file keys that are <= process3 from successor process4 to process3
+2024-05-13 10:23:03 INFO  ChordLookup:144 - Finished copying file keys from successor process4 to process3
+2024-05-13 10:23:03 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:23:03 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:23:03 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -339,12 +339,12 @@ successor(process3) = process5
 predecessor(process3) = process3
 Current File keys for process3 => []
 ==================================
-2024-05-11 17:19:23 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
-2024-05-11 17:19:23 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
-2024-05-11 17:19:23 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:23 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
-2024-05-11 17:19:23 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:23 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
+2024-05-13 10:23:03 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
+2024-05-13 10:23:03 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
+2024-05-13 10:23:03 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:23:03 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
+2024-05-13 10:23:03 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:23:03 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
 ==================================
 Node Identifier = 210821560651360572675896360671414673172
 Node IP address = process4
@@ -352,12 +352,12 @@ successor(process4) = process2
 predecessor(process4) = process5
 Current File keys for process4 => []
 ==================================
-2024-05-11 17:19:23 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
-2024-05-11 17:19:23 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
-2024-05-11 17:19:23 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:23 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
-2024-05-11 17:19:23 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
-2024-05-11 17:19:23 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
+2024-05-13 10:23:03 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
+2024-05-13 10:23:03 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
+2024-05-13 10:23:03 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:23:03 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
+2024-05-13 10:23:03 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
+2024-05-13 10:23:03 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
 ==================================
 Node Identifier = 121411138451101288395601026024677976156
 Node IP address = process5
@@ -365,13 +365,13 @@ successor(process5) = process4
 predecessor(process5) = process3
 Current File keys for process5 => []
 ==================================
-2024-05-11 17:19:25 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:25 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
-2024-05-11 17:19:25 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:25 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
-2024-05-11 17:19:25 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:25 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:25 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:23:05 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:23:05 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
+2024-05-13 10:23:05 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:23:05 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
+2024-05-13 10:23:05 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:23:05 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:23:05 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -379,12 +379,12 @@ successor(process1) = process3
 predecessor(process1) = process2
 Current File keys for process1 => []
 ==================================
-2024-05-11 17:19:25 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:25 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:25 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:25 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:25 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:25 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:23:05 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:23:05 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:23:05 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:23:05 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:23:05 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:23:05 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -392,12 +392,12 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => []
 ==================================
-2024-05-11 17:19:25 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:25 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:25 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:25 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:25 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:25 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:23:05 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:23:05 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:23:05 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:23:05 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:23:05 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:23:05 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -405,12 +405,12 @@ successor(process3) = process5
 predecessor(process3) = process3
 Current File keys for process3 => []
 ==================================
-2024-05-11 17:19:25 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
-2024-05-11 17:19:25 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
-2024-05-11 17:19:25 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:25 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
-2024-05-11 17:19:25 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:25 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
+2024-05-13 10:23:05 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
+2024-05-13 10:23:05 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
+2024-05-13 10:23:05 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:23:05 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
+2024-05-13 10:23:05 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:23:05 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
 ==================================
 Node Identifier = 210821560651360572675896360671414673172
 Node IP address = process4
@@ -418,12 +418,12 @@ successor(process4) = process2
 predecessor(process4) = process5
 Current File keys for process4 => []
 ==================================
-2024-05-11 17:19:25 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
-2024-05-11 17:19:25 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
-2024-05-11 17:19:25 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:25 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
-2024-05-11 17:19:25 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
-2024-05-11 17:19:25 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
+2024-05-13 10:23:05 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
+2024-05-13 10:23:05 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
+2024-05-13 10:23:05 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:23:05 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
+2024-05-13 10:23:05 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
+2024-05-13 10:23:05 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
 ==================================
 Node Identifier = 121411138451101288395601026024677976156
 Node IP address = process5
@@ -431,13 +431,13 @@ successor(process5) = process4
 predecessor(process5) = process3
 Current File keys for process5 => []
 ==================================
-2024-05-11 17:19:27 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:27 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
-2024-05-11 17:19:27 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:27 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
-2024-05-11 17:19:27 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:27 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:27 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:23:07 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:23:07 INFO  StabilizationProtocols:165 - Finished updating the successor for Node: process1
+2024-05-13 10:23:07 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:23:07 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
+2024-05-13 10:23:07 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:23:07 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:23:07 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -445,12 +445,12 @@ successor(process1) = process3
 predecessor(process1) = process2
 Current File keys for process1 => []
 ==================================
-2024-05-11 17:19:27 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:27 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:27 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:27 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:27 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:27 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:23:07 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:23:07 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:23:07 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:23:07 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:23:07 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:23:07 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -458,12 +458,12 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => []
 ==================================
-2024-05-11 17:19:27 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:27 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:27 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:27 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:27 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:27 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:23:07 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:23:07 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:23:07 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:23:07 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:23:07 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:23:07 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -471,12 +471,12 @@ successor(process3) = process5
 predecessor(process3) = process1
 Current File keys for process3 => []
 ==================================
-2024-05-11 17:19:27 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
-2024-05-11 17:19:27 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
-2024-05-11 17:19:27 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:27 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
-2024-05-11 17:19:27 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:27 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
+2024-05-13 10:23:07 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
+2024-05-13 10:23:07 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
+2024-05-13 10:23:07 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:23:07 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
+2024-05-13 10:23:07 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:23:07 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
 ==================================
 Node Identifier = 210821560651360572675896360671414673172
 Node IP address = process4
@@ -484,12 +484,12 @@ successor(process4) = process2
 predecessor(process4) = process5
 Current File keys for process4 => []
 ==================================
-2024-05-11 17:19:27 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
-2024-05-11 17:19:27 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
-2024-05-11 17:19:27 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:27 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
-2024-05-11 17:19:27 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
-2024-05-11 17:19:27 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
+2024-05-13 10:23:07 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
+2024-05-13 10:23:07 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
+2024-05-13 10:23:07 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:23:07 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
+2024-05-13 10:23:07 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
+2024-05-13 10:23:07 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
 ==================================
 Node Identifier = 121411138451101288395601026024677976156
 Node IP address = process5
@@ -497,17 +497,17 @@ successor(process5) = process4
 predecessor(process5) = process3
 Current File keys for process5 => []
 ==================================
-2024-05-11 17:19:28 INFO  FileManager:217 - filename=file1 size=0,121
-2024-05-11 17:19:28 INFO  FileManager:217 - filename=file2 size=0,115
-2024-05-11 17:19:28 INFO  FileManager:217 - filename=file3 size=0,115
-2024-05-11 17:19:28 INFO  FileManager:217 - filename=file4 size=0,116
-2024-05-11 17:19:28 INFO  FileManager:217 - filename=file5 size=0,116
-2024-05-11 17:19:29 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:29 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:29 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
-2024-05-11 17:19:29 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:29 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:29 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:23:08 INFO  FileManager:217 - filename=file1 size=0,121
+2024-05-13 10:23:08 INFO  FileManager:217 - filename=file2 size=0,115
+2024-05-13 10:23:08 INFO  FileManager:217 - filename=file3 size=0,115
+2024-05-13 10:23:08 INFO  FileManager:217 - filename=file4 size=0,116
+2024-05-13 10:23:08 INFO  FileManager:217 - filename=file5 size=0,116
+2024-05-13 10:23:09 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:23:09 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:23:09 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
+2024-05-13 10:23:09 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:23:09 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:23:09 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -515,12 +515,12 @@ successor(process1) = process3
 predecessor(process1) = process2
 Current File keys for process1 => [29249986233499374510233936914584139597, 22851974182570490653634187770374799407]
 ==================================
-2024-05-11 17:19:29 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:29 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:29 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:29 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:29 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:29 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:23:09 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:23:09 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:23:09 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:23:09 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:23:09 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:23:09 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -528,12 +528,12 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => [13988058880685873568223126745537177142, 263856675938514540210526796966916740559, 240788495190661943955842370400050808545, 305513342937436802305366564249075562188, 8256520967608282605234844990226290265, 239639416547729385993578111985362970770, 214974501590503159329658682485012382526]
 ==================================
-2024-05-11 17:19:29 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:29 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:29 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:29 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:29 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:29 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:23:09 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:23:09 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:23:09 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:23:09 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:23:09 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:23:09 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -541,12 +541,12 @@ successor(process3) = process5
 predecessor(process3) = process1
 Current File keys for process3 => [66481538825926898419352978747807121875]
 ==================================
-2024-05-11 17:19:29 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
-2024-05-11 17:19:29 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
-2024-05-11 17:19:29 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:29 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
-2024-05-11 17:19:29 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:29 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
+2024-05-13 10:23:09 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
+2024-05-13 10:23:09 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
+2024-05-13 10:23:09 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:23:09 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
+2024-05-13 10:23:09 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:23:09 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
 ==================================
 Node Identifier = 210821560651360572675896360671414673172
 Node IP address = process4
@@ -554,12 +554,12 @@ successor(process4) = process2
 predecessor(process4) = process5
 Current File keys for process4 => [179241403734895214076219526399432130488, 140065589670395970233963560630295105848, 127615430233524719490345743798572761786, 191558309544647931649133602766041063646, 136541484142652779330200457892076216958, 149037318589456997023767356092491379363]
 ==================================
-2024-05-11 17:19:29 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
-2024-05-11 17:19:29 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
-2024-05-11 17:19:29 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:29 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
-2024-05-11 17:19:29 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
-2024-05-11 17:19:29 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
+2024-05-13 10:23:09 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
+2024-05-13 10:23:09 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
+2024-05-13 10:23:09 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:23:09 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
+2024-05-13 10:23:09 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
+2024-05-13 10:23:09 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
 ==================================
 Node Identifier = 121411138451101288395601026024677976156
 Node IP address = process5
@@ -567,12 +567,12 @@ successor(process5) = process4
 predecessor(process5) = process3
 Current File keys for process5 => [83550242532527638904138483233262313637, 73806995735690189889297542544385123161, 83789482216496502817864659214345176161, 93727835460693461258854490021087346760]
 ==================================
-2024-05-11 17:19:31 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:31 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:31 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
-2024-05-11 17:19:31 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:31 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:31 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:23:11 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:23:11 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:23:11 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
+2024-05-13 10:23:11 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:23:11 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:23:11 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -580,12 +580,12 @@ successor(process1) = process3
 predecessor(process1) = process2
 Current File keys for process1 => [29249986233499374510233936914584139597, 22851974182570490653634187770374799407]
 ==================================
-2024-05-11 17:19:31 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:31 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:31 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:31 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:31 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:31 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:23:11 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:23:11 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:23:11 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:23:11 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:23:11 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:23:11 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -593,12 +593,12 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => [13988058880685873568223126745537177142, 263856675938514540210526796966916740559, 240788495190661943955842370400050808545, 305513342937436802305366564249075562188, 8256520967608282605234844990226290265, 239639416547729385993578111985362970770, 214974501590503159329658682485012382526]
 ==================================
-2024-05-11 17:19:31 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:31 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:31 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:31 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:31 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:31 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:23:11 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:23:11 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:23:11 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:23:11 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:23:11 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:23:11 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -606,12 +606,12 @@ successor(process3) = process5
 predecessor(process3) = process1
 Current File keys for process3 => [66481538825926898419352978747807121875]
 ==================================
-2024-05-11 17:19:31 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
-2024-05-11 17:19:31 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
-2024-05-11 17:19:31 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:31 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
-2024-05-11 17:19:31 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:31 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
+2024-05-13 10:23:11 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
+2024-05-13 10:23:11 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
+2024-05-13 10:23:11 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:23:11 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
+2024-05-13 10:23:11 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:23:11 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
 ==================================
 Node Identifier = 210821560651360572675896360671414673172
 Node IP address = process4
@@ -619,12 +619,12 @@ successor(process4) = process2
 predecessor(process4) = process5
 Current File keys for process4 => [179241403734895214076219526399432130488, 140065589670395970233963560630295105848, 127615430233524719490345743798572761786, 191558309544647931649133602766041063646, 136541484142652779330200457892076216958, 149037318589456997023767356092491379363]
 ==================================
-2024-05-11 17:19:31 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
-2024-05-11 17:19:31 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
-2024-05-11 17:19:31 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:31 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
-2024-05-11 17:19:31 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
-2024-05-11 17:19:31 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
+2024-05-13 10:23:11 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
+2024-05-13 10:23:11 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
+2024-05-13 10:23:11 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:23:11 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
+2024-05-13 10:23:11 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
+2024-05-13 10:23:11 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
 ==================================
 Node Identifier = 121411138451101288395601026024677976156
 Node IP address = process5
@@ -632,12 +632,12 @@ successor(process5) = process4
 predecessor(process5) = process3
 Current File keys for process5 => [83550242532527638904138483233262313637, 73806995735690189889297542544385123161, 83789482216496502817864659214345176161, 93727835460693461258854490021087346760]
 ==================================
-2024-05-11 17:19:33 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
-2024-05-11 17:19:33 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
-2024-05-11 17:19:33 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
-2024-05-11 17:19:33 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
-2024-05-11 17:19:33 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
-2024-05-11 17:19:33 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
+2024-05-13 10:23:13 INFO  StabilizationProtocols:130 - Updating the successor for Node: process1
+2024-05-13 10:23:13 INFO  StabilizationProtocols:84 - Stabilizing ring from process1...
+2024-05-13 10:23:13 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process3
+2024-05-13 10:23:13 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process1
+2024-05-13 10:23:13 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process1
+2024-05-13 10:23:13 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process1
 ==================================
 Node Identifier = 53937554629190552131995290006614509577
 Node IP address = process1
@@ -645,12 +645,12 @@ successor(process1) = process3
 predecessor(process1) = process2
 Current File keys for process1 => [29249986233499374510233936914584139597, 22851974182570490653634187770374799407]
 ==================================
-2024-05-11 17:19:33 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
-2024-05-11 17:19:33 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
-2024-05-11 17:19:33 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
-2024-05-11 17:19:33 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
-2024-05-11 17:19:33 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
-2024-05-11 17:19:33 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
+2024-05-13 10:23:13 INFO  StabilizationProtocols:130 - Updating the successor for Node: process2
+2024-05-13 10:23:13 INFO  StabilizationProtocols:84 - Stabilizing ring from process2...
+2024-05-13 10:23:13 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process1
+2024-05-13 10:23:13 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process2
+2024-05-13 10:23:13 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process2
+2024-05-13 10:23:13 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process2
 ==================================
 Node Identifier = 15618062003214643351512781541041391612
 Node IP address = process2
@@ -658,12 +658,12 @@ successor(process2) = process1
 predecessor(process2) = process4
 Current File keys for process2 => [13988058880685873568223126745537177142, 263856675938514540210526796966916740559, 240788495190661943955842370400050808545, 305513342937436802305366564249075562188, 8256520967608282605234844990226290265, 239639416547729385993578111985362970770, 214974501590503159329658682485012382526]
 ==================================
-2024-05-11 17:19:33 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
-2024-05-11 17:19:33 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
-2024-05-11 17:19:33 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
-2024-05-11 17:19:33 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
-2024-05-11 17:19:33 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
-2024-05-11 17:19:33 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
+2024-05-13 10:23:13 INFO  StabilizationProtocols:130 - Updating the successor for Node: process3
+2024-05-13 10:23:13 INFO  StabilizationProtocols:84 - Stabilizing ring from process3...
+2024-05-13 10:23:13 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process5
+2024-05-13 10:23:13 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process3
+2024-05-13 10:23:13 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process3
+2024-05-13 10:23:13 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process3
 ==================================
 Node Identifier = 66910184482037901621933403444034052414
 Node IP address = process3
@@ -671,12 +671,12 @@ successor(process3) = process5
 predecessor(process3) = process1
 Current File keys for process3 => [66481538825926898419352978747807121875]
 ==================================
-2024-05-11 17:19:33 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
-2024-05-11 17:19:33 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
-2024-05-11 17:19:33 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
-2024-05-11 17:19:33 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
-2024-05-11 17:19:33 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
-2024-05-11 17:19:33 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
+2024-05-13 10:23:13 INFO  StabilizationProtocols:130 - Updating the successor for Node: process4
+2024-05-13 10:23:13 INFO  StabilizationProtocols:84 - Stabilizing ring from process4...
+2024-05-13 10:23:13 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process2
+2024-05-13 10:23:13 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process4
+2024-05-13 10:23:13 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process4
+2024-05-13 10:23:13 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process4
 ==================================
 Node Identifier = 210821560651360572675896360671414673172
 Node IP address = process4
@@ -684,12 +684,12 @@ successor(process4) = process2
 predecessor(process4) = process5
 Current File keys for process4 => [179241403734895214076219526399432130488, 140065589670395970233963560630295105848, 127615430233524719490345743798572761786, 191558309544647931649133602766041063646, 136541484142652779330200457892076216958, 149037318589456997023767356092491379363]
 ==================================
-2024-05-11 17:19:33 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
-2024-05-11 17:19:33 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
-2024-05-11 17:19:33 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
-2024-05-11 17:19:33 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
-2024-05-11 17:19:33 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
-2024-05-11 17:19:33 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
+2024-05-13 10:23:13 INFO  StabilizationProtocols:130 - Updating the successor for Node: process5
+2024-05-13 10:23:13 INFO  StabilizationProtocols:84 - Stabilizing ring from process5...
+2024-05-13 10:23:13 INFO  StabilizationProtocols:91 - Stabilize ring: succnode = process4
+2024-05-13 10:23:13 INFO  StabilizationProtocols:113 - Finished stabilizing chordring from process5
+2024-05-13 10:23:13 INFO  ChordProtocols:158 - Fixing the FingerTable for the Node: process5
+2024-05-13 10:23:13 INFO  StabilizationProtocols:60 - Checking the predecessor for Node: process5
 ==================================
 Node Identifier = 121411138451101288395601026024677976156
 Node IP address = process5

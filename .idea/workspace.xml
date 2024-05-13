@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f961196d-bf6f-4607-8485-919967b87211" name="Changes" comment="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/middleware/MutualExclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/middleware/MutualExclusion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat110/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/hvl/dat110/unit/tests/TestRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/hvl/dat110/unit/tests/TestRemote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/hvl/dat110/unit/tests/TestMutex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/hvl/dat110/unit/tests/TestMutex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/hvl/dat110/middleware/MutualExclusion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/hvl/dat110/middleware/MutualExclusion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestCheckInterval.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestCheckInterval.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFilePeers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFilePeers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFileReplicas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFileReplicas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFindSuccessor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFindSuccessor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFingerTable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestFingerTable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestHashFunction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestHashFunction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestKeys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestKeys.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestMutex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestMutex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestRemote.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestRemote.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestRing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-no.hvl.dat110.unit.tests.TestRing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestCheckInterval.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestCheckInterval.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFilePeers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFilePeers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFileReplicas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFileReplicas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFindSuccessor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFindSuccessor.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFingerTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestFingerTable.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestMutex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestMutex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestRemote.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/no.hvl.dat110.unit.tests.TestRemote.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,12 +108,12 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn compile" />
-      <command value="mvn test" />
       <command value="package no.hvl.dat110.middleware;  import java.math.BigInteger; import java.rmi.RemoteException; import java.rmi.server.UnicastRemoteObject; import java.util.ArrayList; import java.util.HashMap; import java.util.HashSet; import java.util.List; import java.util.Map; import java.util.Set;  import no.hvl.dat110.chordoperations.ChordLookup; import no.hvl.dat110.rpc.interfaces.NodeInterface; import no.hvl.dat110.util.Hash;  /**  * @author tdoy  * dat110: Project3 - Cooperative mirroring using DHT  */  public class Node extends UnicastRemoteObject implements NodeInterface { &#9; &#9;private BigInteger nodeID;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// BigInteger value of hash of IP address/name of the Node &#9;protected String nodename;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// IP address/name of the node  &#9;private int port;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// port on which the registry for this node is running &#9;private NodeInterface successor; &#9;private NodeInterface predecessor; &#9;private Set&lt;BigInteger&gt; keys; &#9; &#9;private List&lt;NodeInterface&gt; fingerTable; &#9;private Map&lt;BigInteger, Message&gt; filesMetadata;&#9;&#9;// &#9; &#9;protected Set&lt;Message&gt; activenodesforfile;&#9;&#9;&#9;// this list stores all active peers holding copies of a file  &#9; &#9;private UpdateOperations updater;&#9;&#9;&#9;&#9;&#9;// this class contains methods for handling file updates &#9;private ChordLookup lookup;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// this class contains methods for looking up keys in a chord ring &#9;&#9; &#9;private Message message; &#9; &#9;/** Mutual Exclusion variable */ &#9;private MutualExclusion mutex; &#9; &#9;private static final long serialVersionUID = 1L; &#9; &#9;public Node(String nodename, int port) throws RemoteException { &#9;&#9;super(); &#9;&#9;this.port = port; &#9;&#9;this.nodename = nodename;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// use a different name as &quot;IP&quot; for single machine simulation &#9;&#9;nodeID = Hash.hashOf(nodename);&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;// use the MD5  from Hash class &#9;&#9; &#9;&#9;keys = new HashSet&lt;BigInteger&gt;(); &#9;&#9;fingerTable = new ArrayList&lt;&gt;(); &#9;&#9;filesMetadata = new HashMap&lt;BigInteger, Message&gt;(); &#9;&#9;updater = new UpdateOperations(this, filesMetadata); &#9;&#9;lookup = new ChordLookup(this);  &#9;&#9;message = new Message(nodeID, nodename, port);&#9;&#9;&#9;&#9;// default message &#9;&#9;mutex = new MutualExclusion(this); &#9;} &#9; &#9;@Override &#9;public BigInteger getNodeID() throws RemoteException { &#9;&#9; &#9;&#9;return nodeID; &#9;}  &#9;//@Override &#9;public String getNodeName() { &#9;&#9; &#9;&#9;return nodename; &#9;} &#9; &#9;@Override &#9;public int getPort() throws RemoteException { &#9;&#9; &#9;&#9;return port; &#9;}  &#9;@Override &#9;public void setSuccessor(NodeInterface succ) throws RemoteException { &#9;&#9; &#9;&#9;successor = succ; &#9;}  &#9;//@Override &#9;public void setPredecessor(NodeInterface pred) { &#9;&#9; &#9;&#9;predecessor = pred; &#9;}  &#9;@Override &#9;public NodeInterface getPredecessor() throws RemoteException { &#9;&#9; &#9;&#9;return predecessor; &#9;}  &#9;@Override &#9;public NodeInterface getSuccessor() throws RemoteException { &#9;&#9; &#9;&#9;return successor; &#9;}  &#9;@Override &#9;public Set&lt;BigInteger&gt; getNodeKeys() throws RemoteException { &#9;&#9; &#9;&#9;return keys; &#9;}  &#9;@Override &#9;public void addKey(BigInteger id) throws RemoteException { &#9;&#9; &#9;&#9;keys.add(id); &#9;} &#9; &#9;@Override &#9;public void removeKey(BigInteger id) throws RemoteException { &#9;&#9; &#9;&#9;keys.remove(id); &#9;} &#9; &#9;@Override &#9;public List&lt;NodeInterface&gt; getFingerTable() { &#9;&#9;return fingerTable; &#9;}  &#9;@Override &#9;public NodeInterface findSuccessor(BigInteger key) throws RemoteException { &#9;&#9;// ask this node to find the successor of key &#9;&#9;return lookup.findSuccessor(key); &#9;} &#9; &#9;//@Override &#9;public void copyKeysFromSuccessor(NodeInterface succ) { &#9;&#9; &#9;&#9;lookup.copyKeysFromSuccessor(succ); &#9;}  &#9;@Override &#9;public void notify(NodeInterface pred_new) throws RemoteException { &#9;&#9; &#9;&#9;lookup.notify(pred_new);&#9;&#9; &#9;}  &#9;@Override &#9;public Message getFilesMetadata(BigInteger fileID) throws RemoteException {  &#9;&#9;return filesMetadata.get(fileID); &#9;}  &#9;@Override &#9;public Map&lt;BigInteger, Message&gt; getFilesMetadata() throws RemoteException { &#9;&#9; &#9;&#9;return filesMetadata; &#9;}  &#9;@Override &#9;public void updateFileContent(List&lt;Message&gt; updates) throws RemoteException { &#9;&#9;updater.updateFileContent(updates); &#9;&#9; &#9;}  &#9;@Override &#9;public synchronized void broadcastUpdatetoPeers(byte[] bytesOfFile) throws RemoteException { &#9;&#9;updater.broadcastUpdatetoPeers(activenodesforfile, bytesOfFile); &#9;&#9; &#9;}  &#9;@Override &#9;public void saveFileContent(String filename, BigInteger fileID, byte[] bytesOfFile, boolean primary) throws RemoteException { &#9;&#9;updater.saveFileContent(filename, fileID, bytesOfFile, primary); &#9;&#9; &#9;} &#9; &#9;/** Remote-write */ &#9;@Override &#9;public void requestRemoteWriteOperation(byte[] updates, Set&lt;Message&gt; activenodes) throws RemoteException { &#9;&#9;this.activenodesforfile = activenodes; &#9;&#9;broadcastUpdatetoPeers(updates);&#9;&#9; &#9;} &#9; &#9; &#9;/** Mutex Section */  &#9;@Override &#9;public boolean requestMutexWriteOperation(Message message, byte[] updates, Set&lt;Message&gt; activepeers) &#9;&#9;&#9;throws RemoteException {  &#9;&#9;this.message = message; &#9;&#9;this.activenodesforfile = activepeers; &#9;&#9;return mutex.doMutexRequest(this.message, updates);  &#9;} &#9; &#9;@Override &#9;public void acquireLock() throws RemoteException { &#9;&#9; &#9;&#9;mutex.acquireLock(); &#9;}  &#9;@Override &#9;public void releaseLocks() throws RemoteException { &#9;&#9; &#9;&#9;mutex.releaseLocks(); &#9;}  &#9;@Override &#9;public void onMutexAcknowledgementReceived(Message message) throws RemoteException { &#9;&#9; &#9;&#9;mutex.onMutexAcknowledgementReceived(message); &#9;}  &#9;@Override &#9;public void onMutexRequestReceived(Message message) throws RemoteException { &#9;&#9; &#9;&#9;mutex.onMutexRequestReceived(message);&#9; &#9;} &#9; &#9;@Override &#9;public void multicastReleaseLocks(Set&lt;Message&gt; activenodes) throws RemoteException { &#9;&#9; &#9;&#9;mutex.multicastReleaseLocks(activenodes); &#9;&#9; &#9;} &#9; &#9;/** End Mutex Section */ &#9; &#9; &#9;/** &#9; * @return the message &#9; */ &#9;public Message getMessage() { &#9;&#9;return message; &#9;}  } " />
       <command value="mvn test -Dtest=TestHashFunction" />
       <command value="mvn test -Dtest=TestFileReplicas" />
       <command value="mvn test -Dtest=TestCheckInterval" />
       <command value="mvn test -Dtest=TestFindSuccessor,TestFingerTable" />
+      <command value="mvn test" />
     </option>
   </component>
   <component name="RunManager">
@@ -141,7 +152,7 @@
       <workItem from="1714062045338" duration="295000" />
       <workItem from="1714062375467" duration="227000" />
       <workItem from="1714062881300" duration="10731000" />
-      <workItem from="1714417201119" duration="23742000" />
+      <workItem from="1714417201119" duration="30775000" />
     </task>
     <task id="LOCAL−00001" summary=".">
       <option name="closed" value="true" />
@@ -164,7 +175,49 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1714131326406</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <option name="closed" value="true" />
+      <created>1715440812317</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1715440812317</updated>
+    </task>
+    <task id="LOCAL−00005" summary="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <option name="closed" value="true" />
+      <created>1715440820454</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1715440820454</updated>
+    </task>
+    <task id="LOCAL−00006" summary="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <option name="closed" value="true" />
+      <created>1715440832679</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1715440832679</updated>
+    </task>
+    <task id="LOCAL−00007" summary="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <option name="closed" value="true" />
+      <created>1715440838675</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1715440838675</updated>
+    </task>
+    <task id="LOCAL−00008" summary="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <option name="closed" value="true" />
+      <created>1715440839625</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1715440839625</updated>
+    </task>
+    <task id="LOCAL−00009" summary="implemented findHighestPredecessor and fixFingerTable methods, tests passed">
+      <option name="closed" value="true" />
+      <created>1715440841971</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1715440841971</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
